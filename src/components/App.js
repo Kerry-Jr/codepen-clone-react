@@ -16,10 +16,10 @@ function App() {
         <script>${js}</script>
         </html>
         `);
-    }, 250);
-  }, [html, css, js]);
+    }, 400);
 
-  // const srcDoc =
+    return () => clearTimeout(timeout);
+  }, [html, css, js]);
 
   return (
     <>
