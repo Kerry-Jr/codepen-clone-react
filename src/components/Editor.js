@@ -7,7 +7,6 @@ import "codemirror/mode/css/css";
 import { Controlled as ControlledEditor } from "react-codemirror2";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faCompress,
   faCompressAlt,
   faExpandAlt,
 } from "@fortawesome/free-solid-svg-icons";
